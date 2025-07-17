@@ -11,4 +11,4 @@ My interests include marine renewable energy (e.g. wave and offshore wind energy
 I am originally from the Philippines which drives my interest in the ocean and the coast. 
 I also worked for three years as a coastal engineer with experience in tropical cyclone and tsunami modeling. 
 
-![My Image](images/portrait.png)
+![My Image](/images/portrait.png)
