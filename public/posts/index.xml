@@ -6,7 +6,14 @@
     <description>Recent content in Posts on Clint C. M. Reyes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Wed, 16 Jul 2025 13:51:50 -1000</lastBuildDate>
     <atom:link href="https://clintreyes.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>https://clintreyes.github.io/posts/my-first-post/</link>
+      <pubDate>Wed, 16 Jul 2025 13:51:50 -1000</pubDate>
+      <guid>https://clintreyes.github.io/posts/my-first-post/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Hi I&amp;rsquo;m &lt;strong&gt;Clint&lt;/strong&gt; a PhD student at the Ocean and Resources Engineering Department at the &lt;em&gt;University of Hawaii at Manoa&lt;/em&gt;, USA.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
