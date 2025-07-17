@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Clint C. M. Reyes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 Jul 2025 16:10:54 -1000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Jul 2025 16:12:25 -1000</lastBuildDate>
     <atom:link href="https://clintreyes.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Developing an analytical model for wave energy extracting breakwaters</title>
+      <link>https://clintreyes.github.io/posts/owc_theory/</link>
+      <pubDate>Wed, 16 Jul 2025 16:12:25 -1000</pubDate>
+      <guid>https://clintreyes.github.io/posts/owc_theory/</guid>
+      <description>&lt;p&gt;In this study we develop an analytical model in order to optimize and further understand the physical mechanisms behind the proposed &lt;a href=&#34;https://clintreyes2.github.io/clintreyes.github.io/posts/owc_expt/&#34;&gt;hybrid breakwater&lt;/a&gt; design which incorporates a wave energy converter into a slotted breakwater.&#xA;The theory is governed by linear potential flow with a non-linear pressure drop boundary condition at the internal air-water interface of the oscillating water column (OWC) air chamber. The slotted breakwater is also modeled with a pressure drop boundary condition, however a linear implementation is used as existing studies (Suh et al., 2006) show sufficient applicability of the linear model. A dimensional analysis was performed to determine important parameters.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Experimental work on breakwaters with wave energy</title>
       <link>https://clintreyes.github.io/posts/owc_expt/</link>
