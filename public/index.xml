@@ -6,14 +6,35 @@
     <description>Recent content on Clint C. M. Reyes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 Jul 2025 13:51:50 -1000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Jul 2025 16:10:54 -1000</lastBuildDate>
     <atom:link href="https://clintreyes.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
+      <title>Experimental work on breakwaters with wave energy</title>
+      <link>https://clintreyes.github.io/posts/owc_expt/</link>
+      <pubDate>Wed, 16 Jul 2025 16:10:54 -1000</pubDate>
+      <guid>https://clintreyes.github.io/posts/owc_expt/</guid>
+      <description>&lt;p&gt;Here we propose a hybrid breakwater design which incorporates a wave energy converter into a slotted breakwater.&#xA;We combine a well studied wave energy converter known as an Oscillating water column or OWC with a slotted breakwater.&#xA;Results show that by combining these two energy dissipating mechanisms can lead to significant improvements in the energy extraction of the OWC, while also improving the breakwater in terms of blocking waves from entering the harbor.&#xA;For more details feel free to have a look at our journal publication:&#xA;&lt;a href=&#34;https://www.mdpi.com/2899828&#34;&gt;&lt;em&gt;&amp;ldquo;A Dual-Function Design of a Slotted Breakwater with a Rectangular Oscillating Water Column: A Wave-flume Study&amp;rdquo;&lt;/em&gt;&lt;/a&gt; published in &lt;em&gt;Energies&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>List of publications</title>
+      <link>https://clintreyes.github.io/posts/publications/</link>
+      <pubDate>Wed, 16 Jul 2025 16:02:36 -1000</pubDate>
+      <guid>https://clintreyes.github.io/posts/publications/</guid>
+      <description>&lt;p&gt;Here is a list of my journal and conference publications. You can also find these in &lt;a href=&#34;https://scholar.google.com/citations?user=XcXxMq0AAAAJ&amp;amp;hl=en&#34;&gt;Google Scholar&lt;/a&gt; or &lt;a href=&#34;https://www.researchgate.net/profile/Clint-Chester-Reyes?ev=hdr_xprf&#34;&gt;Researchgate&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Reyes, C.C.M., Walker, M., Huang, Z., Cross. P. (2024). A Dual-Function Design of a Slotted Breakwater with a Rectangular Oscillating Water Column: A Wave-flume Study. Energies.&lt;/p&gt;&#xA;&lt;p&gt;Huang, Z., Walker, M., Reyes, C.C.M. (2024). An Experimental Study of a Dual-Function Slotted Barrier Integrated with an Oscillating Water Column for Wave Energy Extraction and Shore Protection. Proceedings of the 43rd International Conference on Ocean, Offshore and Arctic Engineering (OMAE 2024). Singapore, Singapore. June 2024.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My brief C.V.</title>
+      <link>https://clintreyes.github.io/posts/cv/</link>
+      <pubDate>Wed, 16 Jul 2025 15:50:32 -1000</pubDate>
+      <guid>https://clintreyes.github.io/posts/cv/</guid>
+      <description>&lt;h2 id=&#34;clint-c-m-reyes&#34;&gt;CLINT C. M. REYES&lt;/h2&gt;&#xA;&lt;p&gt;Present address: 1711 East-West Road, Honolulu, Hawaii, USA, 96848 &lt;br&gt;&#xA;Email: &lt;a href=&#34;mailto:ccreyes@hawaii.edu&#34;&gt;ccreyes@hawaii.edu&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;education&#34;&gt;EDUCATION&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;University of Hawai’i at Manoa&lt;/strong&gt;, USA (Ongoing) &lt;br&gt;&#xA;Department of Ocean and Resources Engineering&#xA;PhD student (Advisor: Prof. Zhenhua Huang)&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;The University of Tokyo&lt;/strong&gt;, Japan &lt;br&gt;&#xA;Department of Civil Engineering, Coastal Engineering Laboratory &lt;br&gt;&#xA;MS Civil Engineering, September 2022&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;University of the Philippines, Diliman&lt;/strong&gt;, Philippines &lt;br&gt;&#xA;Institute of Civil Engineering, Water Resources and Coastal Engineering Group &lt;br&gt;&#xA;BS Civil Engineering June 2017 - &lt;em&gt;Cum Laude&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About me</title>
       <link>https://clintreyes.github.io/posts/my-first-post/</link>
       <pubDate>Wed, 16 Jul 2025 13:51:50 -1000</pubDate>
       <guid>https://clintreyes.github.io/posts/my-first-post/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Hi I&amp;rsquo;m &lt;strong&gt;Clint&lt;/strong&gt; a PhD student at the Ocean and Resources Engineering Department at the &lt;em&gt;University of Hawaii at Manoa&lt;/em&gt;, USA.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Hi I&amp;rsquo;m &lt;strong&gt;Clint&lt;/strong&gt; a PhD student at the Ocean and Resources Engineering Department at the &lt;em&gt;University of Hawaii at Manoa&lt;/em&gt;, USA. I am currently working on the development of efficient modeling tools for wave energy converters, specifically complex designs of oscillating water columns (OWC).&#xA;My interests include marine renewable energy (e.g. wave and offshore wind energy), coastal engineering (e.g. nearshore hydrodynamics of waves and currents, wave breaking, coastal erosion, coral reef and nature based solutions), wave generation and air-sea interaction, fluid mechanics and turbulence.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
