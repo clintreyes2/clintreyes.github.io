@@ -3,7 +3,7 @@
 title: "Clint C. M. Reyes"
 ---
 
-<img src="/images/me_photo.png" alt="Description" style="float: right; width: 200px; margin: 0 0 1em 1em;">
+<img src="/me_photo.jpeg" alt="Description" style="float: right; width: 200px; margin: 0 0 1em 1em;">
 
 <div style="text-align: left;">
 Hi, welcome to my site! 
