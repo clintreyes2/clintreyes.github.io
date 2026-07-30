@@ -12,3 +12,9 @@ enableDefault = true
 
 [markup.goldmark.renderHooks.link]
 enableDefault = true
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+recent_posts_number = 10

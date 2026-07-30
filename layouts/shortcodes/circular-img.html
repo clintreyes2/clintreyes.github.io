@@ -1,0 +1,6 @@
+{{ $src := .Get "src" }}
+<img src="{{ $src }}" alt="{{ .Get "alt" }}" class="circular-image" class="{{ .Get "class" | default "circular-image" }}"
+    {{ with .Get "width" }} width="{{ . }}" {{ end }}
+    {{ with .Get "height" }} height="{{ . }}" {{ end }} 
+    {{ with .Get "border-radius" }} border-radius="{{ . }}" {{ end }} >
+

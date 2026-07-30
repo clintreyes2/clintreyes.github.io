@@ -1,10 +1,14 @@
 +++
-date = '2025-07-16T16:02:36-10:00'
+date = '2025-07-11T16:02:36-10:00'
 draft = false
 title = 'List of publications'
 +++
 
 Here is a list of my journal and conference publications. You can also find these in [Google Scholar](https://scholar.google.com/citations?user=XcXxMq0AAAAJ&hl=en) or [Researchgate](https://www.researchgate.net/profile/Clint-Chester-Reyes?ev=hdr_xprf).
+
+Reyes, C.C.M., Huang, Z. (2026). An Analytical Study of a Dual‐Function Oscillating Water Column with Nonlinear Power Take‐Off and a Slotted Supporting Wall. Ocean Engineering.
+
+Reyes, C.C.M., Huang, Z. (2026). A Revisit of Parametrizing Energy Dissipation Caused by Vortex Shedding at Thin-Plate Edges in Potential-Flow Models. Water 18 (5), 608.
 
 Reyes, C.C.M., Walker, M., Huang, Z., Cross. P. (2024). A Dual-Function Design of a Slotted Breakwater with a Rectangular Oscillating Water Column: A Wave-flume Study. Energies. 
 

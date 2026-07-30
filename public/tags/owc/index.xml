@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OWC on Clint C. M. Reyes</title>
+    <link>http://localhost:1313/tags/owc/</link>
+    <description>Recent content in OWC on Clint C. M. Reyes</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Sep 2025 16:12:25 -1000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/owc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modeling vortex shedding in linear solvers</title>
+      <link>http://localhost:1313/posts/vortex_losses_model/</link>
+      <pubDate>Wed, 24 Sep 2025 16:12:25 -1000</pubDate>
+      <guid>http://localhost:1313/posts/vortex_losses_model/</guid>
+      <description>&lt;p&gt;Modeling ocean structures, wave energy converters, and coastal structures typically use linear models to provide guided decision making for the design of such structures and devices.&#xA;However, linear models are generally first order approximations and typically neglect energy dissipation due to vortex shedding.&lt;/p&gt;&#xA;&lt;p&gt;Previous research have focused on quantifying this energy loss, and implemented such in linear solvers using a porous region.&#xA;By defining a porous region, we are given two unknown parameters (1) the spatial extent and (2) the dissipation incurred in this region.&#xA;However a detailed framework on determining these two parameters is still unavailable in the literature.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Analytical modeling of a wave energy extracting breakwater</title>
+      <link>http://localhost:1313/posts/owc_theory/</link>
+      <pubDate>Wed, 16 Jul 2025 16:12:25 -1000</pubDate>
+      <guid>http://localhost:1313/posts/owc_theory/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/analytical/r1_OWCbreakwater_illust_3c.jpg&#34; alt=&#34;figure&#34;&gt;&#xA;&lt;small&gt;Figure 1 from &lt;a href=&#34;https://www.sciencedirect.com/science/article/abs/pii/S0029801826030568&#34;&gt;Reyes and Huang (2026)&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;&#xA;&lt;p&gt;In this study we developed an analytical model of a &lt;a href=&#34;https://clintreyes2.github.io/clintreyes.github.io/posts/owc_expt/&#34;&gt;hybrid breakwater&lt;/a&gt; design which incorporates a wave energy converter with a slotted breakwater.&#xA;The theory is governed by linear potential flow with a non-linear power take-off or PTO. This allows for modeling a non-linear turbine such as impulse turbines as well as orifices which are typically used in laboratory tests.&#xA;The slotted breakwater is parameterized as in Suh et al., 2006.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Experimental work on breakwaters with wave energy</title>
+      <link>http://localhost:1313/posts/owc_expt/</link>
+      <pubDate>Wed, 16 Jul 2025 16:10:54 -1000</pubDate>
+      <guid>http://localhost:1313/posts/owc_expt/</guid>
+      <description>&lt;p&gt;Here we propose a hybrid breakwater design which incorporates a wave energy converter into a slotted breakwater.&#xA;We combine a well studied wave energy converter known as an Oscillating water column or OWC with a slotted breakwater.&#xA;Results show that by combining these two energy dissipating mechanisms can lead to significant improvements in the energy extraction of the OWC, while also improving the breakwater in terms of blocking waves from entering the harbor.&#xA;For more details feel free to have a look at our journal publication:&#xA;&lt;a href=&#34;https://www.mdpi.com/2899828&#34;&gt;&lt;em&gt;&amp;ldquo;A Dual-Function Design of a Slotted Breakwater with a Rectangular Oscillating Water Column: A Wave-flume Study&amp;rdquo;&lt;/em&gt;&lt;/a&gt; published in &lt;em&gt;Energies&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

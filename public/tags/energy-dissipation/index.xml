@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Energy Dissipation on Clint C. M. Reyes</title>
+    <link>http://localhost:1313/tags/energy-dissipation/</link>
+    <description>Recent content in Energy Dissipation on Clint C. M. Reyes</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Sep 2025 16:12:25 -1000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/energy-dissipation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modeling vortex shedding in linear solvers</title>
+      <link>http://localhost:1313/posts/vortex_losses_model/</link>
+      <pubDate>Wed, 24 Sep 2025 16:12:25 -1000</pubDate>
+      <guid>http://localhost:1313/posts/vortex_losses_model/</guid>
+      <description>&lt;p&gt;Modeling ocean structures, wave energy converters, and coastal structures typically use linear models to provide guided decision making for the design of such structures and devices.&#xA;However, linear models are generally first order approximations and typically neglect energy dissipation due to vortex shedding.&lt;/p&gt;&#xA;&lt;p&gt;Previous research have focused on quantifying this energy loss, and implemented such in linear solvers using a porous region.&#xA;By defining a porous region, we are given two unknown parameters (1) the spatial extent and (2) the dissipation incurred in this region.&#xA;However a detailed framework on determining these two parameters is still unavailable in the literature.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

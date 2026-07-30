@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Modeling vortex shedding in linear solvers | Clint C. M. Reyes</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="
+Vorticity at the front chamber edge of an OWC (Taken from Figure 5 of Lin et. al., (2025)).
+Modeling ocean structures like wave energy converters and coastal structures typically use models based on potential flow theory to provide guided decision making for the design of such structures and devices. This is due to the fast computational time of such models.
+However, such models typically neglect viscous damping of energy e.g. energy dissipation due to vortex shedding and hence for wave energy devices results to overprediction in estimated power efficiency obtained from the linear model.">
+    <meta name="generator" content="Hugo 0.148.1">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/posts/vortex_losses_model/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/posts/vortex_losses_model/">
+  <meta property="og:site_name" content="Clint C. M. Reyes">
+  <meta property="og:title" content="Modeling vortex shedding in linear solvers">
+  <meta property="og:description" content="Vorticity at the front chamber edge of an OWC (Taken from Figure 5 of Lin et. al., (2025)).
+Modeling ocean structures like wave energy converters and coastal structures typically use models based on potential flow theory to provide guided decision making for the design of such structures and devices. This is due to the fast computational time of such models.
+However, such models typically neglect viscous damping of energy e.g. energy dissipation due to vortex shedding and hence for wave energy devices results to overprediction in estimated power efficiency obtained from the linear model.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-09-24T16:12:25-10:00">
+    <meta property="article:modified_time" content="2025-09-24T16:12:25-10:00">
+    <meta property="article:tag" content="Linear Theory">
+    <meta property="article:tag" content="Energy Dissipation">
+    <meta property="article:tag" content="Modeling">
+    <meta property="article:tag" content="OWC">
+
+  <meta itemprop="name" content="Modeling vortex shedding in linear solvers">
+  <meta itemprop="description" content="Vorticity at the front chamber edge of an OWC (Taken from Figure 5 of Lin et. al., (2025)).
+Modeling ocean structures like wave energy converters and coastal structures typically use models based on potential flow theory to provide guided decision making for the design of such structures and devices. This is due to the fast computational time of such models.
+However, such models typically neglect viscous damping of energy e.g. energy dissipation due to vortex shedding and hence for wave energy devices results to overprediction in estimated power efficiency obtained from the linear model.">
+  <meta itemprop="datePublished" content="2025-09-24T16:12:25-10:00">
+  <meta itemprop="dateModified" content="2025-09-24T16:12:25-10:00">
+  <meta itemprop="wordCount" content="295">
+  <meta itemprop="keywords" content="Linear Theory,Energy Dissipation,Modeling,OWC">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Modeling vortex shedding in linear solvers">
+  <meta name="twitter:description" content="Vorticity at the front chamber edge of an OWC (Taken from Figure 5 of Lin et. al., (2025)).
+Modeling ocean structures like wave energy converters and coastal structures typically use models based on potential flow theory to provide guided decision making for the design of such structures and devices. This is due to the fast computational time of such models.
+However, such models typically neglect viscous damping of energy e.g. energy dissipation due to vortex shedding and hence for wave energy devices results to overprediction in estimated power efficiency obtained from the linear model.">
+
+	
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        Clint C. M. Reyes
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Modeling vortex shedding in linear solvers</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2025-09-24T16:12:25-10:00">September 24, 2025</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p><img src="/images/vortex/lin2025_fig5.png" alt="vortex"><br>
+<small>Vorticity at the front chamber edge of an OWC (Taken from Figure 5 of <a href="https://pubs.aip.org/aip/pof/article-abstract/37/6/065173/3350964/Experimental-investigation-of-vortex-induced-flow?redirectedFrom=fulltext">Lin et. al., (2025)</a>).</small></p>
+<p>Modeling ocean structures like wave energy converters and coastal structures typically use models based on potential flow theory to provide guided decision making for the design of such structures and devices. This is due to the fast computational time of such models.<br>
+However, such models typically neglect viscous damping of energy e.g. energy dissipation due to vortex shedding and hence for wave energy devices results to overprediction in estimated power efficiency obtained from the linear model.</p>
+<p>For Oscillating water column (OWC) wave energy converters, viscous dissipation is typically dominant at the chamber edges.
+In this study, we would like to consider such dissipation in the potential flow framework.
+Previous work have focused on either empirically correcting to include viscous dissipation or artificially include the dissipation as viscous damping on the free surface boundary condition.
+Both provide a simple fix, however do not give us coefficients that would have physical meaning.</p>
+<p>In this work, we propose attaching a perforated region at submerged chamber edges of the OWC, to account for vortex-induced viscous losses.
+We first perform this for two plates separated by a given distance.
+Attaching a perforated region would allow for the dissipation of energy using two main parameters (1) the perforated region size, and (2) the damping coefficient.
+Our recent <a href="https://www.mdpi.com/2073-4441/18/5/608">paper</a> successfully models this and shows that a constant dissipation parameter can be obtained from a wide range of perforated region sizes.</p>
+<p><img src="/images/vortex/reyes2026_fig1.png" alt="vortex2"><br>
+<small>Modeling energy dissipation with a short perforated region attached to the plate edges (Taken from Figure 1 of <a href="https://www.mdpi.com/2073-4441/18/5/608">Reyes and Huang, (2026)</a>).</small></p>
+<p>We are currently extending the theory to consider the OWC, and will come up shortly in a follow up paper. Stay tuned!</p>
+<!-- By using this model, engineers are able to consider energy losses due to vortex shedding in the design optimization stage, which will save time and money in the final design stages, where time consuming CFD simulations are performed.  -->
+<!-- complete modeling framework in order to account for vortex induced losses in linear solvers. 
+We perform the approach for a simple case of a single submerged vertical plate and extend this for the case of two vertical plates. 
+This is performed by introducing a porous region at the submerged ends of the vertical plates. 
+We determine the spatial extent of the porous region by performing a sensitivity of the reflection coefficient, while the dissipation coefficient is obtained by an optimization with a existing loss curve.
+This methodology is easy to apply to multiple plates and can be easily performed on various geometries provided the availability experimental test results. 
+By using this model, engineers are able to consider energy losses due to vortex shedding in the design optimization stage, which will save time and money in the final design stages, where time consuming CFD simulations are performed.  -->
+<!-- I am working on a short manuscript to demonstrate this methodology, hopefully it will be released soon!  -->
+<!-- In this study we develop an analytical model in order to optimize and further understand the physical mechanisms behind the proposed [hybrid breakwater](https://clintreyes2.github.io/clintreyes.github.io/posts/owc_expt/) design which incorporates a wave energy converter into a slotted breakwater.
+The theory is governed by linear potential flow with a non-linear pressure drop boundary condition at the internal air-water interface of the oscillating water column (OWC) air chamber. The slotted breakwater is also modeled with a pressure drop boundary condition, however a linear implementation is used as existing studies (Suh et al., 2006) show sufficient applicability of the linear model. A dimensional analysis was performed to determine important parameters. 
+
+Sketch of the theoretical model: 
+![sketch_theory](/images/owc_theory_sketch.png)
+
+Results show that the chamber width is the main controlling parameter for changing the peak and range of operational frequencies at which the OWC operates. 
+Decreasing the size of the slots or the slotted breakwater porosity provides increase in energy extraction efficiency and decrease in wave transmission. However, an increase in wave reflection and total horizontal force on the structure must be accounted for. 
+It was shown that under increasing amplitudes, the energy extraction efficiency also increases while dropping the relative wave transmission through the breakwater. Finally the variations is chamber draft at the scale of tidal changes show minimal effects for long waves, however might be important for shorter or deep water waves. 
+
+This work was presented in the 41st International Association for Hydro-environment Engineering and Research (IAHR) world congress held on June 21-27, 2025 in Singapore. 
+Upon discussions with a colleague at the conference, the importance of the energy dissipation at the chamber tips may have quite a significant impact when looking into the effect of the wave amplitude. 
+Work is currently ongoing on developing a model to include this phenomenon in existing linear models.  -->
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/linear-theory/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Linear Theory</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/energy-dissipation/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Energy Dissipation</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/modeling/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Modeling</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/owc/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">OWC</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/posts/owc_expt/">Experimental work on breakwaters with wave energy</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/" >
+    &copy;  Clint C. M. Reyes 2026 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

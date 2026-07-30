@@ -1,8 +1,12 @@
 +++
-date = '2025-07-16T16:10:54-10:00'
+date = '2025-07-18T16:10:54-10:00'
 draft = false
 title = 'Experimental work on breakwaters with wave energy'
+tags = ["experiment","wave energy", "OWC", "breakwater"]
 +++
+
+![sketch](/images/owc_expt/owc_breakwater_sketch.png)
+<small>Experimental setup (Taken from Figure 3 of [Reyes et. al., (2024)](https://www.mdpi.com/2899828)).</small>
 
 Here we propose a hybrid breakwater design which incorporates a wave energy converter into a slotted breakwater. 
 We combine a well studied wave energy converter known as an Oscillating water column or OWC with a slotted breakwater. 
@@ -13,8 +17,8 @@ For more details feel free to have a look at our journal publication:
 Over the course of the experiment, we also learned a valuable lesson in working with narrow wave flumes. When working with a narrow flume or larger flumes with concrete sidewalls, care must be taken due to the viscous dissipation of energy along the sidewall. This can significantly impact wave transmission and reflection measurements as we typically measure at a distance away from the structure to avoid interference of evanescent waves. 
 In this paper we consider viscous damping due to sidewall friction by employing an exponential decay similar to Stiassnie et al. (1984). The damping parameter is obtained through empty flume tests, measuring the wave height decay along the flume length. 
 
-![setup](/images/owc_breakwater_expt.pdf)
-![sketch](/images/owc_breakwater_sketch.png)
+![setup](/images/owc_expt/owc_breakwater_expt.png)
+<small>Figure 1 of [Reyes et. al., (2024)](https://www.mdpi.com/2899828).</small>
 
 Front view of the structure:
-![frontview](/images/owc_breakwater_expt2.pdf)
+![frontview](/images/owc_expt/owc_breakwater_expt2.png)

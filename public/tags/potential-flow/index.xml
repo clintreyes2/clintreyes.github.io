@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Potential Flow on Clint C. M. Reyes</title>
+    <link>http://localhost:1313/tags/potential-flow/</link>
+    <description>Recent content in Potential Flow on Clint C. M. Reyes</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 29 Jul 2026 16:12:25 -1000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/potential-flow/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analytical modeling of a wave energy extracting breakwater</title>
+      <link>http://localhost:1313/posts/owc_theory/</link>
+      <pubDate>Wed, 29 Jul 2026 16:12:25 -1000</pubDate>
+      <guid>http://localhost:1313/posts/owc_theory/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/analytical/r1_OWCbreakwater_illust_3c.jpg&#34; alt=&#34;figure&#34;&gt;&#xA;&lt;small&gt;Figure 1 from &lt;a href=&#34;https://www.sciencedirect.com/science/article/abs/pii/S0029801826030568&#34;&gt;Reyes and Huang (2026)&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;&#xA;&lt;p&gt;In this study we developed an analytical model of a &lt;a href=&#34;https://clintreyes2.github.io/clintreyes.github.io/posts/owc_expt/&#34;&gt;hybrid breakwater&lt;/a&gt; design which incorporates a wave energy converter with a slotted breakwater.&#xA;The theory is governed by linear potential flow with a non-linear power take-off or PTO. This allows for modeling a non-linear turbine such as impulse turbines as well as orifices which are typically used in laboratory tests.&#xA;The slotted breakwater is parameterized as in Suh et al., 2006.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

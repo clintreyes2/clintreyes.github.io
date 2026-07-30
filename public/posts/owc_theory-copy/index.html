@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Developing an analytical model for wave energy extracting breakwaters | Clint C. M. Reyes</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="In this study we develop an analytical model in order to optimize and further understand the physical mechanisms behind the proposed hybrid breakwater design which incorporates a wave energy converter into a slotted breakwater.
+The theory is governed by linear potential flow with a non-linear pressure drop boundary condition at the internal air-water interface of the oscillating water column (OWC) air chamber. The slotted breakwater is also modeled with a pressure drop boundary condition, however a linear implementation is used as existing studies (Suh et al., 2006) show sufficient applicability of the linear model. A dimensional analysis was performed to determine important parameters.">
+    <meta name="generator" content="Hugo 0.148.1">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/posts/owc_theory-copy/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/posts/owc_theory-copy/">
+  <meta property="og:site_name" content="Clint C. M. Reyes">
+  <meta property="og:title" content="Developing an analytical model for wave energy extracting breakwaters">
+  <meta property="og:description" content="In this study we develop an analytical model in order to optimize and further understand the physical mechanisms behind the proposed hybrid breakwater design which incorporates a wave energy converter into a slotted breakwater. The theory is governed by linear potential flow with a non-linear pressure drop boundary condition at the internal air-water interface of the oscillating water column (OWC) air chamber. The slotted breakwater is also modeled with a pressure drop boundary condition, however a linear implementation is used as existing studies (Suh et al., 2006) show sufficient applicability of the linear model. A dimensional analysis was performed to determine important parameters.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-07-16T16:12:25-10:00">
+    <meta property="article:modified_time" content="2025-07-16T16:12:25-10:00">
+
+  <meta itemprop="name" content="Developing an analytical model for wave energy extracting breakwaters">
+  <meta itemprop="description" content="In this study we develop an analytical model in order to optimize and further understand the physical mechanisms behind the proposed hybrid breakwater design which incorporates a wave energy converter into a slotted breakwater. The theory is governed by linear potential flow with a non-linear pressure drop boundary condition at the internal air-water interface of the oscillating water column (OWC) air chamber. The slotted breakwater is also modeled with a pressure drop boundary condition, however a linear implementation is used as existing studies (Suh et al., 2006) show sufficient applicability of the linear model. A dimensional analysis was performed to determine important parameters.">
+  <meta itemprop="datePublished" content="2025-07-16T16:12:25-10:00">
+  <meta itemprop="dateModified" content="2025-07-16T16:12:25-10:00">
+  <meta itemprop="wordCount" content="295">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Developing an analytical model for wave energy extracting breakwaters">
+  <meta name="twitter:description" content="In this study we develop an analytical model in order to optimize and further understand the physical mechanisms behind the proposed hybrid breakwater design which incorporates a wave energy converter into a slotted breakwater. The theory is governed by linear potential flow with a non-linear pressure drop boundary condition at the internal air-water interface of the oscillating water column (OWC) air chamber. The slotted breakwater is also modeled with a pressure drop boundary condition, however a linear implementation is used as existing studies (Suh et al., 2006) show sufficient applicability of the linear model. A dimensional analysis was performed to determine important parameters.">
+
+	
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        Clint C. M. Reyes
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Developing an analytical model for wave energy extracting breakwaters</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2025-07-16T16:12:25-10:00">July 16, 2025</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>In this study we develop an analytical model in order to optimize and further understand the physical mechanisms behind the proposed <a href="https://clintreyes2.github.io/clintreyes.github.io/posts/owc_expt/">hybrid breakwater</a> design which incorporates a wave energy converter into a slotted breakwater.
+The theory is governed by linear potential flow with a non-linear pressure drop boundary condition at the internal air-water interface of the oscillating water column (OWC) air chamber. The slotted breakwater is also modeled with a pressure drop boundary condition, however a linear implementation is used as existing studies (Suh et al., 2006) show sufficient applicability of the linear model. A dimensional analysis was performed to determine important parameters.</p>
+<p>Sketch of the theoretical model:
+<img src="/images/owc_theory_sketch.png" alt="sketch_theory"></p>
+<p>Results show that the chamber width is the main controlling parameter for changing the peak and range of operational frequencies at which the OWC operates.
+Decreasing the size of the slots or the slotted breakwater porosity provides increase in energy extraction efficiency and decrease in wave transmission. However, an increase in wave reflection and total horizontal force on the structure must be accounted for.
+It was shown that under increasing amplitudes, the energy extraction efficiency also increases while dropping the relative wave transmission through the breakwater. Finally the variations is chamber draft at the scale of tidal changes show minimal effects for long waves, however might be important for shorter or deep water waves.</p>
+<p>This work was presented in the 41st International Association for Hydro-environment Engineering and Research (IAHR) world congress held on June 21-27, 2025 in Singapore.
+Upon discussions with a colleague at the conference, the importance of the energy dissipation at the chamber tips may have quite a significant impact when looking into the effect of the wave amplitude.
+Work is currently ongoing on developing a model to include this phenomenon in existing linear models.</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/" >
+    &copy;  Clint C. M. Reyes 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

@@ -1,11 +1,11 @@
 +++
-date = '2025-07-16T15:50:32-10:00'
+date = '2025-07-12T15:50:32-10:00'
 draft = false
 title = 'My brief C.V.'
 +++
 
 ## CLINT C. M. REYES
-Present address: 1711 East-West Road, Honolulu, Hawaii, USA, 96848 \
+<!-- Present address: 1711 East-West Road, Honolulu, Hawaii, USA, 96848 \ -->
 Email: ccreyes@hawaii.edu
 
 ## EDUCATION 
