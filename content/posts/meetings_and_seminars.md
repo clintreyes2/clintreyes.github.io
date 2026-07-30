@@ -15,7 +15,7 @@ Presented "Numerical study of an Oscillating water column with a slotted wall an
 ### IAHR 2025, Singapore 
 41st International Association for Hydro-Environment Engineering and Research (IAHR) World Congress. \
 Presented "A Dual-Functional Slotted Breakwater Integrated with an Oscillating Water Column with a Linear Turbine: Preliminary Analytical Results", June 2025
-![iahr2025_1](/images/conferences/iahr2025_1.jpg)
+![iahr2025_1](/images/conferences/iahr2025_1.JPG)
 ### SOEST Symposium 2025
 The School of Ocean, Earth Sciences and Technology at the University of Hawai'i hosted a local conference highlighting the works of graduate student and postdocs, with specific focus targeted to the mass public. 
 Here I talked about my work on wave energy extracting breakwaters with the talk entitled: "What if we could generate electricity while protecting our coastlines from ocean waves?". 
