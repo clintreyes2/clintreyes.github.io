@@ -5,7 +5,7 @@ title = 'Experimental study on swash zone transport of a coral-gravel beach'
 tags = ["waves", "swash zone", "experiment", "erosion", "coral gravel", "particle tracking"]
 +++
 
-![coral_beach](/images/coral_gravel/tajima2018_fig1)
+![coral_beach](/images/coral_gravel/tajima2018_fig1.png)
 <small>A coral gravel beach accumulated on top of a coral reef called Ballast Island in Okinawa, Japan (Taken from Figure 1 of [Tajima (2018)](https://icce-ojs-tamu.tdl.org/icce/article/view/8751/7551)).</small>
 
 Coral reefs and rocky coasts are present all over the globe. 
@@ -28,7 +28,7 @@ Ballast island is situated in between two other islands, Hatoma island and Iriom
 Due to the location of the beach on top of the reef flat, transport processes generally occur in the swash zone. 
 We perform laboratory experiments of waves acting on a coral gravel beach in order to observe swash zone transport of the coral gravel beach. 
 
-![cg_expt](/images/coral_gravel/reyes2024_fig2)
+![cg_expt](/images/coral_gravel/reyes2024_fig2.png)
 <small>Experimental setup (Taken from Figure 2 of [Reyes and Tajima (2024)](https://www.researchgate.net/publication/381534094_Detection_of_Groundwater_Flow_Velocity_Field_in_the_Swash_Zone_of_the_Coral_Gravel_Beach_Using_Particle_Tracking_Velocimetry)).</small>
 
 The experimental results showed that infiltration had a strong influence on reduction of offshore transport of sediment. 
