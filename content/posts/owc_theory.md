@@ -26,4 +26,4 @@ This work was presented in the 41st International Association for Hydro-environm
 Upon discussions with a colleague at the conference, the importance of the energy dissipation at the chamber tips may have quite a significant impact when looking into the effect of the wave amplitude. 
 We are currently working on developing a [model](https://clintreyes2.github.io/clintreyes.github.io/posts/vortex_losses_model/) to include this phenomenon in present linear potential flow based models. 
 
-Update: [This work](https://www.sciencedirect.com/science/article/abs/pii/S0029801826030568) has been published in Ocean Engineering! 
+Update: [This work](https://www.sciencedirect.com/science/article/abs/pii/S0029801826030568) has been published in Ocean Engineering! Supplementary material on the numerical implementation can be found here: https://doi.org/10.5281/zenodo.21700609
