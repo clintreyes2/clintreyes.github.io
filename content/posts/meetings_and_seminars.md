@@ -36,3 +36,4 @@ Our group attended a TEAMER sponsored Wave energy modeling and controls workshop
 International Conference on Asian and Pacific Coasts
 Presented "Detection of Groundwater Flow Velocity Field in the Swash Zone of the Coral Gravel Beach Using Particle Tracking Velocimetry", November 2023. 
 We also submitted to the conference proceedings [(Reyes and Tajima, 2024)](https://www.researchgate.net/publication/381534094_Detection_of_Groundwater_Flow_Velocity_Field_in_the_Swash_Zone_of_the_Coral_Gravel_Beach_Using_Particle_Tracking_Velocimetry).
+![apac_1](/images/conferences/apac_1.JPG)
