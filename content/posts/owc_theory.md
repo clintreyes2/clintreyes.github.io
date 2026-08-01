@@ -27,7 +27,7 @@ Upon discussions with a colleague at the conference, the importance of the energ
 We are currently working on developing a [model](https://clintreyes2.github.io/clintreyes.github.io/posts/vortex_losses_model/) to include this phenomenon in present linear potential flow based models. 
 
 Update: [This work](https://www.sciencedirect.com/science/article/abs/pii/S0029801826030568) has been published in Ocean Engineering! \
-Preprint : [PDF](pdf/OE_RH26_preprint.pdf) \
+Preprint : [PDF](../../pdf/OE_RH26_preprint.pdf) \
 Supplementary material on the numerical implementation can be found here: [![DOI](https://zenodo.org/badge/1317025962.svg)](https://doi.org/10.5281/zenodo.21700609).
 
 If you would like to use the code to obtain the wavenumbers (real and imaginary) from the dispersion relation, you can find it here: [![DOI](https://zenodo.org/badge/1318935136.svg)](https://doi.org/10.5281/zenodo.21732032)

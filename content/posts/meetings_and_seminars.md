@@ -25,7 +25,7 @@ Here I talked about my work on wave energy extracting breakwaters with the talk 
 ## 2024
 ### UMERC-METS 2024, Duluth, Minnesota
 A conference on wave and tidal energy hosted by the University Marine Energy Research Community (UMERC) with the Marine Energy Technology Symposium (METS) 
-I presented our poster on our experimental results of including a horizontal plate to the [OWC-slotted breakwater design](https://clintreyes2.github.io/clintreyes.github.io/posts/owc_expt/). \
+I presented our [poster](/images/conferences/UMERC24-Poster-REYES_draft_final.pdf) on our experimental results of including a horizontal plate to the [OWC-slotted breakwater design](https://clintreyes2.github.io/clintreyes.github.io/posts/owc_expt/). \
 ![umerc_poster](/images/conferences/UMERC24-Poster-REYES_draft_final.pdf)
 
 ### TEAMER WEC Modeling and Controls Workshop OSU May 2024
@@ -38,5 +38,3 @@ Presented "Detection of Groundwater Flow Velocity Field in the Swash Zone of the
 We also submitted to the conference proceedings [(Reyes and Tajima, 2024)](https://www.researchgate.net/publication/381534094_Detection_of_Groundwater_Flow_Velocity_Field_in_the_Swash_Zone_of_the_Coral_Gravel_Beach_Using_Particle_Tracking_Velocimetry).
 <!-- ![apac_1](/images/conferences/apac_1.JPG) -->
 ![APAC 2023](../../images/conferences/apac_1.JPG)
-<!-- <img src="{{ "images/conferences/apac_1.JPG" | relURL }}" -->
-     <!-- alt="APAC 2023"> -->
