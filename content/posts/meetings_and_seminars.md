@@ -26,7 +26,7 @@ Here I talked about my work on wave energy extracting breakwaters with the talk 
 ### UMERC-METS 2024, Duluth, Minnesota
 A conference on wave and tidal energy hosted by the University Marine Energy Research Community (UMERC) with the Marine Energy Technology Symposium (METS) 
 I presented our [poster](/images/conferences/UMERC24-Poster-REYES_draft_final.pdf) on our experimental results of including a horizontal plate to the [OWC-slotted breakwater design](https://clintreyes2.github.io/clintreyes.github.io/posts/owc_expt/). \
-![umerc_poster](/images/conferences/UMERC24-Poster-REYES_draft_final.pdf)
+<!-- ![umerc_poster](/images/conferences/UMERC24-Poster-REYES_draft_final.pdf) -->
 
 ### TEAMER WEC Modeling and Controls Workshop OSU May 2024
 Our group attended a TEAMER sponsored Wave energy modeling and controls workshop at Oregon state university, in May 2024. 
